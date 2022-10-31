@@ -40,9 +40,12 @@ koverMerged {
                     "*Activity",
                     "*Activity\$*",
                     "*.databinding.*", // ViewBinding
-                    "org.jetbrains.kover_android_kts_example.BuildConfig"
+                    "*.BuildConfig"
                 )
             )
+        }
+        annotations {
+            excludes += listOf("androidx.compose.ui.tooling.preview.Preview", "*Preview")
         }
     }
 }
