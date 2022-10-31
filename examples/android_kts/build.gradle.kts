@@ -7,6 +7,7 @@ buildscript {
         classpath("com.android.tools.build:gradle:${Versions.ANDROID_GRADLE_PLUGIN}")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.KOTLIN}")
         classpath("org.jetbrains.kotlinx:kover:${Versions.KOVER}")
+        classpath("app.cash.paparazzi:paparazzi-gradle-plugin:1.1.0")
     }
 }
 
