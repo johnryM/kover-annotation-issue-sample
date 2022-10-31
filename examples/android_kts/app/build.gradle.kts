@@ -48,7 +48,7 @@ dependencies {
     api(platform(project(":depconstraints")))
     kapt(platform(project(":depconstraints")))
     androidTestApi(platform(project(":depconstraints")))
-
+    implementation(project(":my-library"))
 
     // Android
 
